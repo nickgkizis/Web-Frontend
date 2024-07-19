@@ -1,0 +1,155 @@
+body{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: gray;
+}
+#counter-box,#color-box-1, #color-box-2,.img-box, #number-box,#record, .box{
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    margin: 10px;
+    border: 7px black;
+    border-style:ridge;
+    border-radius: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(40, 49, 51);
+}
+.container2{
+    margin: 10px;
+    /* border: 2px solid black; */
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: rgb(255, 255, 255); */
+}
+.outer{
+    background-color: rgb(24, 26, 37);
+    width: fit-content;
+    margin: 10px;
+    border: 7px black;
+    border-style:ridge;
+    border-radius: 10px;
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+}
+button{
+    margin: 4px;
+    font-size: 2rem;
+    background-color:rgb(0, 0, 0);
+    border: 2px solid black;
+    border-style:ridge;
+    color: white;
+}
+button:hover{
+    background-color: grey;
+}
+.mini-button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#color-box-1{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    border:2px solid black;
+}
+#color-box-2{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    border:2px solid rgb(0, 0, 0);
+}
+#number-box{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    border:2px solid black;
+    font-size: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#record{
+    width:150px;
+    height: 150px;
+    border:2px solid black;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+#counter-box{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    border:2px solid black;
+    font-size: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.img-box{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+/*
+SCRAMBLED
+*/
+
+input{
+    width: 160px;
+    height: 30px;
+    margin-bottom: 7px;
+}
+
+.box {
+    position: relative;
+    width: 600px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.letter {
+    position:absolute;
+    font-size: 3rem;
+    transition: all 2s ease; /* Slow down the transition */
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(0, 0); /* Initialize transform property */
+}
+  
+  
+

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./mini_apps.css">
+    
+</head>
+<body class="bg-gradient" id="bd">
+
+    <!-- 
+    
+    -->
+    <div class="outer">
+        <div class="inner">
+            <div class="container">
+            <h1>Background Changer</h1>
+            <button onclick="colorChange()">Change</button>
+            </div>
+            <div class="container2">
+                <h3 id="color">RGB Code: rgb</h3>
+            </div>
+        </div>
+    </div>
+    
+        
+    <!-- 
+    
+    -->
+    <div class="outer">
+        <div class="inner">
+            <div class="container">
+                <h1>Color Changer (RGB)</h1>
+                <button onclick="colorChange1()">Change</button>
+            </div>
+            <div class="container2">
+                <div id="color-box-1"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 
+
+    -->
+    <div class="outer">
+        <div class="inner">
+            <div class="container">
+            <h1>Color Changer (Random)</h1>
+            <button onclick="colorChange2()">Change</button>
+            </div>
+            <div class="container2">
+                <h3 id="color2">RGB Code: rgb</h3>
+            <div id="color-box-2"></div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- 
+    
+    -->
+
+    <div class="outer">
+        <div class="inner">
+            <div class="container">
+                <h1>Number Picker</h1>
+                <button onclick="randomNum()">Select</button>
+                <button onclick="reset()">Reset</button>
+                <button onclick="showRecord()">History</button>
+            </div>
+            <div class="container2">
+                <div id="number-box">0</div>
+                <div id="record"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 
+    
+    -->
+
+    <div class="outer">
+        <div class="inner">
+            <div class="container">
+            <h1>Counter</h1>
+            <div>
+                <button class="mini-button" onclick="minus()">-1</button>
+                <button class="mini-button" onclick="plus()">+1</button>
+            </div>
+            <div>
+                <button class="mini-button" onclick="minus10()">-10</button>
+                <button class="mini-button" onclick="plus10()">+10</button>
+            </div>
+            <button onclick="resetCount()">Reset</button>
+            </div>
+            <div class="container2">
+                <div id="counter-box">0</div>
+            </div>
+        </div> 
+    </div>
+    
+    <!-- 
+    
+    -->
+    <div class="outer">
+        <div class="inner">
+            <div id="image" class="container">
+                <h1>Image Changer</h1>
+                <button onclick="imageChanger()">Change</button>
+            </div>
+            <div class="container2">
+                <div id="image-container"><div class="img-box"></div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+    
+    -->
+    <div class="outer">
+        <div class="inner">
+            <div class="container">
+                <h1>Text Scrambler</h1>
+                <input type="text" id="userInput" placeholder="Enter text">
+                <button id="scrambleButton">Scramble</button>
+                <button id="unscrambleButton">Unscramble</button>
+            </div>
+            <div class="container2">
+                <div id="scrambleBox" class="box"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+
+    <script src="./mini_apps.js"></script>
+</body>
+</html>
